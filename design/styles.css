@@ -1,0 +1,112 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    margin: 9% 24.76% 0 24%;
+    padding: 2.2rem 1.5rem;
+    border-top-left-radius: 0.7vw;
+    border-top-right-radius: 0.7vw;
+    /* box-shadow: #000 2%; */
+}
+
+.main-heading {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.sub-heading {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.about-text {
+    color: hsl(218, 22%, 67%);
+    
+}
+
+/* Pricing Section */
+.pricing {
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+    margin-left: 24.6%;
+    margin-bottom: 7%;
+    padding: 2.5rem 3rem 0;
+    border-bottom-left-radius: 0.7vw;
+}
+
+.pricing-heading {
+    font-weight: 700;
+    font-size: 1.1rem;       
+}
+
+.price {
+    font-weight: 700;
+    font-size: 2rem;       
+    padding-right: 10px;
+}
+
+.month {
+    font-size: .9rem;
+    opacity: 50%;
+}
+
+.pricing-content {
+    font-size: 0.9rem;
+}
+
+.button {
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    border: 0;
+    margin-top: 1rem;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.button:hover {
+    background-color: hsl(71, 90%, 54%);
+}
+
+
+/* Footer Section */
+.footer {
+    background-color: hsl(179, 62%, 47%);
+    color: #fff;
+    margin-bottom: 7%;
+    padding: 2.5rem 3rem 1rem;
+    border-bottom-right-radius: 0.7vw;
+}
+
+.footer-heading {    
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.footer-content {
+    font-size: 0.95rem;    
+    opacity: 70%;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+    .pricing {
+        margin: 0 25.55% 0 25%;
+        border-bottom-left-radius: 0;
+        padding-bottom: 2.5rem;
+    }
+
+    .footer {
+        margin: 0 25.55% 9% 25%;
+        border-bottom-left-radius: 0.7vw;
+    }
+
+}
